@@ -20,7 +20,7 @@ form.onsubmit = (e)=>{
         form.reset();
         setTimeout(()=>{
           statusTxt.style.display = "none";
-        }, 3000); //hide the statusTxt after 3 seconds if the msg is sent
+        }, 3); //hide the statusTxt after 3 seconds if the msg is sent
       }
       statusTxt.innerText = response;
     }
